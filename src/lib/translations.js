@@ -42,7 +42,7 @@ export const translations = {
       statement: 'Luno is built around a simple idea: the space where you think should be calm, private, and entirely your own.',
       items: [
         { title: 'Personal', desc: 'Shape your workspace around the way you think, not the other way around.' },
-        { title: 'Local-first', desc: 'Your notes live with you by default — readable, portable, and under your control.' },
+        { title: 'Local-first', desc: 'Your notes live with you by default, readable, portable, and under your control.' },
         { title: 'Flexible', desc: 'Markdown when you want it. Rich text when you need it. Structure when it helps.' },
         { title: 'Portable', desc: 'Plain files you can open anywhere, today and years from now.' },
         { title: 'Connected', desc: 'Link ideas together and watch your knowledge grow into a living network.' },
@@ -52,7 +52,7 @@ export const translations = {
     markdown: {
       eyebrow: 'Markdown-first',
       title: 'Your notes. Your files.',
-      desc: 'Luno writes in Markdown and keeps your notes as readable, portable files. No lock-in, no proprietary formats — just text that lasts.',
+      desc: 'Luno writes in Markdown and keeps your notes as readable, portable files. No lock-in, no proprietary formats, just text that lasts.',
       points: ['Readable in any editor', 'Portable across devices', 'Yours to keep'],
       previewTitle: 'On Reading.md',
     },
@@ -71,7 +71,7 @@ export const translations = {
     canvas: {
       eyebrow: 'Canvas',
       title: 'Arrange your thoughts in space.',
-      desc: 'When linear notes aren\'t enough, step back and think on an infinite canvas. Drop in notes, images, and ideas — then connect them however makes sense.',
+      desc: 'When linear notes are not enough, step back and think on an infinite canvas. Add notes, images, and ideas wherever they fit, then connect them in ways that make sense to you.',
       points: ['Drag anything anywhere', 'Connect cards freely', 'Zoom from overview to detail'],
     },
     templates: {
@@ -88,7 +88,7 @@ export const translations = {
     ai: {
       eyebrow: 'AI, optional',
       title: 'A quiet assistant for your own thinking.',
-      desc: 'Luno can bring in AI when you want it — to summarize, to expand, to organize, or to ask questions of your notes. It\'s a tool that serves your thinking, not the other way around.',
+      desc: 'Luno can bring in AI when you want it to summarize, expand, organize, or answer questions about your notes. It\'s a tool that serves your thinking, not the other way around.',
       points: ['Summarize long notes', 'Expand a rough idea', 'Ask questions across your notes'],
       prompt: 'Summarize my notes on focus and deep work',
       response: 'Across three notes, a shared thread emerges: protect long stretches of uninterrupted time, make attention visible, and review what you learned at the end of each day.',
@@ -96,7 +96,7 @@ export const translations = {
     privacy: {
       eyebrow: 'Local-first & Private',
       title: 'Your workspace stays yours.',
-      desc: 'Luno is designed around ownership. Your notes are stored as files you control. Cloud sync is an optional capability — not the foundation of the product.',
+      desc: 'Luno is designed around ownership. Your notes are stored as files you control. Cloud sync is an optional capability, not the foundation of the product.',
       points: ['Files you can read anywhere', 'No account required to start', 'Sync only if you choose it'],
     },
     download: {
@@ -140,8 +140,8 @@ export const translations = {
         { label: 'Terms', href: '#' },
       ],
       social: [
-        { label: 'GitHub', href: '#' },
-        { label: 'Discord', href: '#' },
+        { label: 'GitHub', href: 'https://github.com/phanuwatla/luno-note' },
+        { label: 'Discord', href: 'https://discord.com/' },
       ],
     },
   },
@@ -181,7 +181,7 @@ export const translations = {
       statement: 'Luno สร้างขึ้นจากแนวคิดง่ายๆ: พื้นที่ที่คุณใช้คิดควรเป็นที่สงบ เป็นส่วนตัว และเป็นของคุณอย่างแท้จริง',
       items: [
         { title: 'ส่วนตัว', desc: 'ปรับพื้นที่ทำงานให้เข้ากับวิธีคิดของคุณ ไม่ใช่ปรับตัวคุณให้เข้ากับมัน' },
-        { title: 'เก็บในเครื่องเป็นหลัก', desc: 'บันทึกของคุณอยู่กับคุณตั้งแต่แรก — อ่านได้ พกพาได้ และอยู่ในการควบคุมของคุณ' },
+        { title: 'เก็บในเครื่องเป็นหลัก', desc: 'บันทึกของคุณอยู่กับคุณตั้งแต่แรก อ่านได้ พกพาได้ และอยู่ในการควบคุมของคุณ' },
         { title: 'ยืดหยุ่น', desc: 'Markdown เมื่อต้องการ ข้อความจัดรูปแบบเมื่อจำเป็น โครงสร้างเมื่อช่วยได้' },
         { title: 'พกพาได้', desc: 'ไฟล์ข้อความธรรมดาที่เปิดได้ทุกที่ ทั้งวันนี้และอีกหลายปีข้างหน้า' },
         { title: 'เชื่อมโยง', desc: 'เชื่อมไอเดียเข้าด้วยกันแล้วดูความรู้ของคุณเติบโตเป็นเครือข่ายที่มีชีวิต' },
@@ -191,7 +191,7 @@ export const translations = {
     markdown: {
       eyebrow: 'มี Markdown เป็นพื้นฐาน',
       title: 'บันทึกของคุณ ไฟล์ของคุณ',
-      desc: 'Luno เขียนด้วย Markdown และเก็บบันทึกเป็นไฟล์ข้อความที่อ่านได้และพกพาได้ ไม่มีการล็อกข้อมูล ไม่มีรูปแบบเฉพาะ — มีเพียงข้อความที่อยู่ได้นาน',
+      desc: 'Luno เขียนด้วย Markdown และเก็บบันทึกเป็นไฟล์ข้อความที่อ่านได้และพกพาได้ ไม่มีการล็อกข้อมูล ไม่มีรูปแบบเฉพาะ มีเพียงข้อความที่อยู่ได้นาน',
       points: ['อ่านได้ในทุกโปรแกรมแก้ไข', 'พกพาข้ามอุปกรณ์', 'เป็นของคุณที่จะเก็บไว้'],
       previewTitle: 'On Reading.md',
     },
@@ -210,7 +210,7 @@ export const translations = {
     canvas: {
       eyebrow: 'Canvas',
       title: 'จัดเรียงความคิดของคุณในพื้นที่',
-      desc: 'เมื่อบันทึกแบบบรรทัดไม่พอ ถอยออกมาแล้วคิดบน Canvas ที่ไม่มีขอบเขต วางบันทึก รูปภาพ และไอเดีย แล้วเชื่อมต่อกันตามที่เห็นสมควร',
+      desc: 'เมื่อบันทึกแบบบรรทัดไม่พอ ให้ถอยออกมาดูแล้วคิดบน Canvas ที่ไม่มีขอบเขต วางบันทึก รูปภาพ และไอเดีย ไว้ตรงไหนก็ได้ แล้วเชื่อมต่อกันในแบบที่เหมาะกับคุณ',
       points: ['ลากสิ่งใดก็ได้ไปที่ใดก็ได้', 'เชื่อมการ์ดอย่างอิสระ', 'ซูมจากภาพรวมถึงรายละเอียด'],
     },
     templates: {
@@ -227,7 +227,7 @@ export const translations = {
     ai: {
       eyebrow: 'AI เป็นตัวเลือก',
       title: 'ผู้ช่วยเงียบๆ สำหรับความคิดของคุณเอง',
-      desc: 'Luno สามารถเรียก AI มาช่วยเมื่อคุณต้องการ — สรุป ขยาย จัดระเบียบ หรือถามคำถามจากบันทึกของคุณ เป็นเครื่องมือที่รับใช้ความคิดของคุณ ไม่ใช่ตรงกันข้าม',
+      desc: 'Luno สามารถเรียก AI มาช่วยเมื่อคุณต้องการ เช่น สรุป ขยาย จัดระเบียบ หรือถามคำถามจากบันทึกของคุณ เป็นเครื่องมือที่รับใช้ความคิดของคุณ ไม่ใช่ตรงกันข้าม',
       points: ['สรุปบันทึกยาวๆ', 'ขยายไอเดียหยาบๆ', 'ถามคำถามข้ามบันทึกของคุณ'],
       prompt: 'สรุปบันทึกของฉันเรื่องสมาธิและการทำงานลึก',
       response: 'จากสามบันทึก เห็นเส้นทางร่วมกัน: ปกป้องช่วงเวลาที่ไม่ถูกขัดจังหนะ ทำให้ความสนใจมองเห็นได้ และทบทวนสิ่งที่ได้เรียนรู้เมื่อสิ้นวัน',
@@ -235,7 +235,7 @@ export const translations = {
     privacy: {
       eyebrow: 'เก็บในเครื่องและเป็นส่วนตัว',
       title: 'พื้นที่ทำงานของคุณยังเป็นของคุณ',
-      desc: 'Luno ออกแบบมาจากแนวคิดเรื่องความเป็นเจ้าของ บันทึกของคุณถูกเก็บเป็นไฟล์ที่คุณควบคุมเอง การซิงค์ผ่านคลาวด์เป็นความสามารถเสริมที่เลือกได้ — ไม่ใช่รากฐานของผลิตภัณฑ์',
+      desc: 'Luno ออกแบบมาจากแนวคิดเรื่องความเป็นเจ้าของ บันทึกของคุณถูกเก็บเป็นไฟล์ที่คุณควบคุมเอง การซิงค์ผ่านคลาวด์เป็นความสามารถเสริมที่เลือกได้ ไม่ใช่รากฐานของผลิตภัณฑ์',
       points: ['ไฟล์ที่คุณอ่านได้ทุกที่', 'เริ่มต้นไม่ต้องมีบัญชี', 'ซิงค์เมื่อคุณเลือกเท่านั้น'],
     },
     download: {
@@ -279,8 +279,8 @@ export const translations = {
         { label: 'เงื่อนไข', href: '#' },
       ],
       social: [
-        { label: 'GitHub', href: '#' },
-        { label: 'Discord', href: '#' },
+        { label: 'GitHub', href: 'https://github.com/phanuwatla/luno-note' },
+        { label: 'Discord', href: 'https://discord.com/' },
       ],
     },
   },

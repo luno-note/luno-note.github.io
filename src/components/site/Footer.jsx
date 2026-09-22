@@ -27,7 +27,7 @@ export default function Footer() {
                 <ul className="mt-3 space-y-2">
                   {c.items.map((it) => (
                     <li key={it.label}>
-                      <a href={it.href} className="text-sm text-foreground/75 transition-colors hover:text-primary">
+                      <a href={it.href} target="_blank" rel="noopener noreferrer" className="text-sm text-foreground/75 transition-colors hover:text-primary">
                         {it.label}
                       </a>
                     </li>

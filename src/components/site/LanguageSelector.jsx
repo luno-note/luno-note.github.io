@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
-import { Check, Globe } from 'lucide-react';
+import { Check, ChevronDown, Globe } from 'lucide-react';
 import { useI18n } from '@/lib/i18n';
 
 export default function LanguageSelector({ align = 'right' }) {
@@ -31,9 +31,11 @@ export default function LanguageSelector({ align = 'right' }) {
         aria-haspopup="listbox"
         aria-expanded={open}
         aria-label={t.nav.switchLanguage}
-        className="inline-flex h-9 w-9 items-center justify-center rounded-xl text-muted-foreground transition-colors hover:text-foreground hover:bg-muted"
+        className="inline-flex h-9 items-center gap-2 rounded-xl px-2.5 text-sm font-medium text-muted-foreground transition-colors hover:text-foreground hover:bg-muted"
       >
         <Globe className="h-4 w-4" aria-hidden="true" />
+        <span className="min-w-[1.5rem] text-center">{current.short}</span>
+        <ChevronDown className={`h-3.5 w-3.5 transition-transform ${open ? 'rotate-180' : ''}`} aria-hidden="true" />
       </button>
       {open && (
         <ul

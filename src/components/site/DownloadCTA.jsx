@@ -22,7 +22,9 @@ export default function DownloadCTA() {
           <p className="mx-auto mt-5 max-w-xl text-lg leading-relaxed text-muted-foreground">{t.download.desc}</p>
           <div className="mt-9 flex flex-wrap items-center justify-center gap-3">
             <a
-              href="#download"
+              href="https://github.com/phanuwatla/luno-note/releases/download/v1.3.1/luno-note-setup-1.3.1.exe"
+              target="_blank"
+              rel="noreferrer"
               className="inline-flex items-center gap-2 rounded-xl bg-primary px-6 py-3 text-sm font-semibold text-primary-foreground transition-transform hover:-translate-y-0.5"
             >
               <Download className="h-4 w-4" aria-hidden="true" /> {t.download.download}

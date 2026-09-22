@@ -48,7 +48,9 @@ export default function Navbar() {
           </div>
           <ThemeToggle label={t.nav.switchTheme} />
           <a
-            href="#download"
+            href="https://github.com/phanuwatla/luno-note/releases/download/v1.3.1/luno-note-setup-1.3.1.exe"
+            target="_blank"
+            rel="noreferrer"
             className="hidden items-center gap-1.5 rounded-xl bg-primary px-3.5 py-2 text-sm font-semibold text-primary-foreground transition-transform hover:-translate-y-0.5 sm:inline-flex"
           >
             <Download className="h-4 w-4" aria-hidden="true" /> {t.nav.getLuno}
@@ -56,7 +58,7 @@ export default function Navbar() {
           <button
             type="button"
             onClick={() => setOpen((o) => !o)}
-            className="inline-flex h-9 w-9 items-center justify-center rounded-xl border border-border text-foreground md:hidden"
+            className="inline-flex h-9 w-9 items-center justify-center rounded-xl text-muted-foreground transition-colors hover:text-foreground hover:bg-muted md:hidden"
             aria-label={open ? t.nav.closeMenu : t.nav.openMenu}
             aria-expanded={open}
           >
@@ -82,7 +84,9 @@ export default function Navbar() {
           <div className="mt-4 flex items-center justify-between border-t border-border pt-4">
             <LanguageSelector align="left" />
             <a
-              href="#download"
+              href="https://github.com/phanuwatla/luno-note/releases/download/v1.3.1/luno-note-setup-1.3.1.exe"
+              target="_blank"
+              rel="noreferrer"
               onClick={() => setOpen(false)}
               className="inline-flex items-center gap-1.5 rounded-xl bg-primary px-4 py-2 text-sm font-semibold text-primary-foreground"
             >
